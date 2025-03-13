@@ -1,0 +1,53 @@
+header {
+    padding: 25px;
+    /*responsavel pelo preenchimento interno/tamanho*/
+  background-color: #0d0502;
+    /*cor de fundo*/
+    display: flex;
+    /*tornando os itens flex/ lado a lado*/
+    justify-content: center;
+    /*justificando o conteudo ao centro*/
+    gap: 50px;
+    /*espaço entre os elementos*/
+    align-items: center;
+    /*responsavel por alinhar verticalmente os itens*/
+}
+
+header i {
+   color: #ecf8d4;
+    /* cor do icone */
+    font-size: 60px;
+    /* tamanho do icone */
+}
+
+header h1 {
+  color: #ecf8d4;
+    /*cor da letra*/
+    font-size: 36px;
+    /*tamanho da letra*/
+   
+}
+
+.list-menu ul {
+    /*Alteraçao na lista nao oredenada (elemento pai)*/
+    display: flex;
+    /* tornando as ( li ) flex/ladoa a lado*/
+    justify-content: center;
+    /*Deixando elas centralisadas*/
+    gap: 25px;
+    /*Espaço entre as ( li )*/
+}
+
+.list-menu ul li {
+    /*Alteraçao da lista ( li ) (elemento filho)*/
+    list-style: none;
+    /*removendo o estilo de lista aplicado por psdrao*/
+}
+
+.list-menu ul li a {
+    text-decoration: none;
+    /*remoçao do sublinhado (Descoraçao de texto*/
+    color: #ecf8d4;
+}
+
+
