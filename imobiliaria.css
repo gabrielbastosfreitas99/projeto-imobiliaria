@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
 header {
     padding: 25px;
     /*responsavel pelo preenchimento interno/tamanho*/
-  background-color: #0d0502;
+    background-color: #000000;
     /*cor de fundo*/
     display: flex;
     /*tornando os itens flex/ lado a lado*/
@@ -14,18 +16,18 @@ header {
 }
 
 header i {
-   color: #ecf8d4;
+    color: #7890a8;
     /* cor do icone */
     font-size: 60px;
     /* tamanho do icone */
 }
 
 header h1 {
-  color: #ecf8d4;
+    color: #7890a8;
     /*cor da letra*/
-    font-size: 36px;
+    font-size: 45px;
     /*tamanho da letra*/
-   
+    font-family: "Spicy Rice", serif;
 }
 
 .list-menu ul {
@@ -47,7 +49,169 @@ header h1 {
 .list-menu ul li a {
     text-decoration: none;
     /*remoçao do sublinhado (Descoraçao de texto*/
-    color: #ecf8d4;
+    color: #7890a8;
+    /*cor da letra*/
+    font-family: "Spicy Rice", serif;
+    
+}
+
+.caixa-01{
+    background-image: url(imagem/casa-03.jpg);
+    background-repeat: no-repeat;  
+}
+
+.caixa-02{
+    background-image: url(imagem/casa-04.jpg);
+    background-repeat: no-repeat;
+}
+
+.caixa-03{
+    background-image: url(imagem/011.jpeg);
+    background-repeat: no-repeat;
+}
+
+.caixa-01 div p{
+    font-weight: 500px;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sessao-01 {
+    padding: 200px;
+    /*responsavel poelo oreenchimento interno/tamanho*/
+    background-image: url(imagem/home-1682316_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sessao-01 img {
+    width: 230;
+    height: 230;
+}
+
+.sessao-01 button {
+    width: 230px;
+    height: auto;
+    padding: 10px;
+    background-color: #181848ce;
+    color: #6c94bd;
+    border-radius: 7px;
+
+    border-color: transparent;
+    font-family: "Spicy Rice", serif;
+}
+
+.section-02 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+
+    padding: 160px;
+    background-color: #6c94bd;
+}
+
+.section-02 div {
+    width: 350px;
+    height: 600px;
+    background-color: #304878;
+
+}
+
+.sessao-03 {
+    padding: 160px;
+    background-color: #7890a8;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    align-items: center;
+}
+
+.sessao-03 div img {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.sessao-03 div p {
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+    font-family: "Spicy Rice", serif;
+}
+
+.sessao-03 span {
+    color: #f0a818;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.sessao-04 {
+    padding: 160px;
+    background-color: #304878;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    align-items: center;
+}
+
+.sessao-04 iframe {
+    border-radius: 15px;
+}
+
+.sessao-04 p {
+    font-size: 30px;
+    color: #000000;
+    background-color: #7890a8;
+    padding: 10px;
+    font-family: "Spicy Rice", serif;
+}
+
+.sessao-04 span {
+    color: #f0a818;
+}
+
+footer {
+    background-color: #f0a818;
+    padding: 50px;
+
+    color: #000000;
+    text-align: center;
+    line-height: 20px;
+    font-family: "Spicy Rice", serif;
+}
+
+footer img {
+    width: 100px;
+    height: 100px;
+}
