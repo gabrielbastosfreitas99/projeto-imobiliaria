@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 header {
     padding: 25px;
     /*responsavel pelo preenchimento interno/tamanho*/
@@ -52,30 +56,36 @@ header h1 {
     color: #7890a8;
     /*cor da letra*/
     font-family: "Spicy Rice", serif;
-    
+
 }
 
-.caixa-01{
-    background-image: url(imagem/casa-03.jpg);
-    background-repeat: no-repeat;  
+.section-02 {
+    padding: 200px;
+    background-color: #304878;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
 }
 
-.caixa-02{
-    background-image: url(imagem/casa-04.jpg);
-    background-repeat: no-repeat;
+.section-02 div {
+    width: 300px;
+    height: 600px;
+    background-color: #304878;
+    text-align: center;
 }
 
-.caixa-03{
-    background-image: url(imagem/011.jpeg);
-    background-repeat: no-repeat;
-}
-
-.caixa-01 div p{
-    font-weight: 500px;
+.caixa-01 img {
+    width: 100%;
 }
 
 
-
+.caixa-01 p {
+    font-size: 15px;
+    color: rgb(7, 7, 7);
+    font-weight: 700;
+}
 
 
 
