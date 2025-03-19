@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
 
-html{
+* {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
     scroll-behavior: smooth;
+    /*scrool suave nas trasiçoes*/
 }
 
 header {
@@ -86,28 +90,6 @@ header h1 {
     color: rgb(7, 7, 7);
     font-weight: 700;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .sessao-01 {
@@ -225,3 +207,5 @@ footer img {
     width: 100px;
     height: 100px;
 }
+
+footer a {}
