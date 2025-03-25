@@ -63,6 +63,16 @@ header h1 {
 
 }
 
+.list-menu ul li a:hover{
+    color: #f0a818;
+    transition: 0.08s;
+}
+
+ .sessao-01 button:hover {
+   background-color: #f0a818;
+    transition: 0.08s;
+}
+
 .section-02 {
     padding: 200px;
     background-color: #304878;
@@ -208,4 +218,7 @@ footer img {
     height: 100px;
 }
 
-footer a {}
+footer:hover{
+    color: #304878;
+     transition: 0.08s;
+}
