@@ -26,7 +26,7 @@ header {
 header i {
     color: #7890a8;
     /* cor do icone */
-    font-size: 60px;
+   
     /* tamanho do icone */
 }
 
@@ -62,15 +62,40 @@ header h1 {
     font-family: "Spicy Rice", serif;
 
 }
-
-.list-menu ul li a:hover{
-    color: #f0a818;
-    transition: 0.08s;
+.div-i{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    gap: 20px;
+}
+.div-i p {
+    color: #7890a8;
+    font-size: 25px;
 }
 
- .sessao-01 button:hover {
-   background-color: #f0a818;
-    transition: 0.08s;
+
+
+.fa-circle-user {
+    font-size: 40px;
+}
+
+.fa-circle-user:hover{
+    color: #f0a818;
+    transition: 0.8s; 
+}
+
+.fa-house-chimney{
+    font-size: 60px;
+}
+
+.list-menu ul li :hover {
+    color: #f0a818;
+    transition: 0.8s;
+}
+
+.sessao-01 button:hover {
+    background-color: #f0a818;
+    transition: 0.8s;
 }
 
 .section-02 {
@@ -138,16 +163,27 @@ header h1 {
     align-items: center;
     justify-content: space-evenly;
     gap: 15px;
-
+    color: beige;
     padding: 160px;
     background-color: #6c94bd;
 }
 
 .section-02 div {
+    gap: 30px;
     width: 350px;
     height: 600px;
     background-color: #304878;
+    border-radius: 15px;
+    box-shadow: 20px 20px 20px rgb(0, 0, 0)
+}
 
+.section-02 div:hover {
+    background-color: #000000;
+    transition: 0.8s;
+}
+
+.section-02 div p {
+    color: beige;
 }
 
 .sessao-03 {
@@ -163,11 +199,13 @@ header h1 {
     width: 500px;
     height: 500px;
     border-radius: 10px;
+    box-shadow: 20px 20px 20px;
+    border-radius: 15px;
 }
 
 .sessao-03 div p {
     font-size: 30px;
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: 500;
     font-family: "Spicy Rice", serif;
 }
@@ -176,6 +214,11 @@ header h1 {
     color: #f0a818;
     font-size: 40px;
     font-weight: 600;
+}
+
+.sessao-03 div img:hover {
+    transition: 0.8s;
+    box-shadow: 20px 20px 20px;
 }
 
 .sessao-04 {
@@ -203,6 +246,12 @@ header h1 {
     color: #f0a818;
 }
 
+.sessao-04 iframe:hover {
+    box-shadow: 20px 20px 20px;
+    transition: 0.8s;
+
+}
+
 footer {
     background-color: #f0a818;
     padding: 50px;
@@ -218,7 +267,7 @@ footer img {
     height: 100px;
 }
 
-footer:hover{
+footer:hover {
     color: #304878;
-     transition: 0.08s;
+    transition: 0.8s;
 }
