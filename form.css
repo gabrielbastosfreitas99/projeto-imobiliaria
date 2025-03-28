@@ -1,1 +1,78 @@
+/*ESTILIZAÇÃO GLOBAÇ  */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #899752;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+
+
+/* ESTILIZANDO A DIV QUE CONTEM O FORMULARIO  */
+
+.div-form {
+    background: #d6e68a;
+    ;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+    width: 300px;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    /*MAREGEM INFERRIO*/
+    font-weight: bold;
+    /* LARGURA DA FONTE */
+}
+
+
+/* input[type="email"], input[type="password"]{ 
+background-color: aqua;
+}
+*/
+
+.dombosco {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #95aa61;
+}
+
+.btn-form {
+    padding: 5px;
+    background-color: #f6f8ee;
+    color: black;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.btn-form:hover {
+    background-color: #95aa61;
+    transition: 0.8s;
+
+}
+
+h2,p {
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
 

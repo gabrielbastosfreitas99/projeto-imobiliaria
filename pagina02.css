@@ -84,7 +84,8 @@ header {
     padding: 180px;
     background-color: #304878;
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
+    flex-direction: bottom;
 
 }
 
@@ -189,35 +190,12 @@ header {
     gap: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .ap {
     background-color: #304878;
     padding: 180px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: bottom;
 
 }
 
@@ -266,7 +244,7 @@ header {
 
 .ap3 img {
     width: 100%;
-    height: 50%;
+    height: 44%;
 }
 
 .ap3 h2 {
@@ -280,8 +258,8 @@ header {
 }
 
 .ap4 img {
-    width: 500%;
-    height: 50%;
+    width: 100%;
+    height: 40%;
 }
 
 .ap4 h2 {

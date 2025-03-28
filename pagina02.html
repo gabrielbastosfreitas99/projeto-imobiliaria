@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,8 +9,21 @@
     <script src="https://kit.fontawesome.com/fec10f46ff.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="imagens/house.png" type="image/x-icon">
     <link rel="stylesheet" href="pagina02.css">
-    <script src="https://kit.fontawesome.com/5729e0ff2e.js" crossorigin="anonymous"></script>
+    <style>
+        /* Modo Claro (padrão) */
+        body {
+            background-color: white;
+            color: black;
+        }
 
+        /* Modo Escuro (detectado automaticamente) */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #121212;
+                color: white;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -52,250 +66,231 @@
 
         <section class="casa" id="casa">
 
-            <h2> Nossas Casas </h2>
+            <div class="h2">  <h2> Nossas Casas </h2> </div>
+           
 
-            <div class="casa1">
+            <div class="cima" >
+                <div class="casa1">
 
-                <img src="imagens/casa-div1.png" alt="Nossa primeira opção">
-                <h2>
-                    Casa Para Compra <br> Avenida do Contorno, 7.500 - Centro, Belo Horizonte
-                </h2>
-                <p> R$500.000,00 </p>
-
-                <div class="div-icon">
-                    <i class="fa-solid fa-ruler-horizontal"></i>
-                    <p>500m²</p>
-
-                    <i class="fa-solid fa-bed"></i>
-                    <p>3</p>
-
-                    <i class="fa-solid fa-bath"></i>
-                    <p>4</p>
-
-                    <i class="fa-solid fa-car"></i>
-                    <p>4</p>
-
-                    <i class="fa-brands fa-whatsapp"></i>
-                    <p>Contato</p>
+                    <img src="imagens/casa-div1.png" alt="Nossa primeira opção">
+                    <h2>
+                        Casa Para Compra <br> Avenida do Contorno, 7.500 - Centro, Belo Horizonte
+                    </h2>
+                    <p> R$500.000,00 </p>
+    
+                    <div class="div-icon">
+                        <i class="fa-solid fa-ruler-horizontal"></i>
+                        <p>500m²</p>
+    
+                        <i class="fa-solid fa-bed"></i>
+                        <p>3</p>
+    
+                        <i class="fa-solid fa-bath"></i>
+                        <p>4</p>
+    
+                        <i class="fa-solid fa-car"></i>
+                        <p>4</p>
+    
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <p>Contato</p>
+                    </div>
                 </div>
 
+                <div class="casa3">
+                    <img src="imagens/casa-div3.jpg" alt="">
+    
+                    <h2> Casa Para Compra <br> Av. Salim Farah Maluf, 2211 - Tatuapé, São paulo</h2>
+                    <p>R$700.000,00</p>
+                    <div class="div-icon">
+                        <i class="fa-solid fa-ruler-horizontal"></i>
+                        <p>600m²</p>
+    
+                        <i class="fa-solid fa-bed"></i>
+                        <p>4</p>
+    
+                        <i class="fa-solid fa-bath"></i>
+                        <p>3</p>
+    
+                        <i class="fa-solid fa-car"></i>
+                        <p>3</p>
+    
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <p>Contato</p>
+                    </div>
+                </div>
+
+               
+
             </div>
+            
 
-            <div class="casa2">
-                <img src="imagens/casa-02.jpg" alt="">
+           
 
-                <h2> Casa Para Aluguel <br> Rua Miguel de Frias, 42 - Icaraí, Rio de janeiro</h2>
-                <p>R$2000,00</p>
-                <div class="div-icon">
-                    <i class="fa-solid fa-ruler-horizontal"></i>
-                    <p>350m²</p>
+            <div class="baixo">
+               
 
-                    <i class="fa-solid fa-bed"></i>
-                    <p>2</p>
-
-                    <i class="fa-solid fa-bath"></i>
-                    <p>3</p>
-
-                    <i class="fa-solid fa-car"></i>
-                    <p>2</p>
-
-                    <i class="fa-brands fa-whatsapp"></i>
-                    <p>Contato</p>
+                <div class="casa2">
+                    <img src="imagens/casa-02.jpg" alt="">
+    
+                    <h2> Casa Para Aluguel <br> Rua Miguel de Frias, 42 - Icaraí, Rio de janeiro</h2>
+                    <p>R$2000,00</p>
+                    <div class="div-icon">
+                        <i class="fa-solid fa-ruler-horizontal"></i>
+                        <p>350m²</p>
+    
+                        <i class="fa-solid fa-bed"></i>
+                        <p>2</p>
+    
+                        <i class="fa-solid fa-bath"></i>
+                        <p>3</p>
+    
+                        <i class="fa-solid fa-car"></i>
+                        <p>2</p>
+    
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <p>Contato</p>
+                    </div>
+    
+    
                 </div>
 
 
-            </div>
-
-            <div class="casa3">
-                <img src="imagens/casa-div3.jpg" alt="">
-
-                <h2> Casa Para Compra <br> Av. Salim Farah Maluf, 2211 - Tatuapé, São paulo</h2>
-                <p>R$700.000,00</p>
-                <div class="div-icon">
-                    <i class="fa-solid fa-ruler-horizontal"></i>
-                    <p>600m²</p>
-
-                    <i class="fa-solid fa-bed"></i>
-                    <p>4</p>
-
-                    <i class="fa-solid fa-bath"></i>
-                    <p>3</p>
-
-                    <i class="fa-solid fa-car"></i>
-                    <p>3</p>
-
-                    <i class="fa-brands fa-whatsapp"></i>
-                    <p>Contato</p>
+                <div class="casa4">
+                    <img src="imagens/casa-4 (1).png" alt="">
+    
+                    <h2> Casa Para Aluguel <br> Rua Visconde de Nácar, 1.241 - Batel, Curitiba - Paraná </h2>
+                    <p>R$3500,00</p>
+                    <div class="div-icon">
+                        <i class="fa-solid fa-ruler-horizontal"></i>
+                        <p>250m²</p>
+    
+                        <i class="fa-solid fa-bed"></i>
+                        <p>2</p>
+    
+                        <i class="fa-solid fa-bath"></i>
+                        <p>2</p>
+    
+                        <i class="fa-solid fa-car"></i>
+                        <p>3</p>
+    
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <p>Contato</p>
+                    </div>
+                    
                 </div>
+                
             </div>
-
-            <div class="casa4">
-                <img src="imagens/casa-4 (1).png" alt="">
-
-                <h2> Casa Para Aluguel <br> Rua Visconde de Nácar, 1.241 - Batel, Curitiba - Paraná </h2>
-                <p>R$3500,00</p>
-                <div class="div-icon">
-                    <i class="fa-solid fa-ruler-horizontal"></i>
-                    <p>250m²</p>
-
-                    <i class="fa-solid fa-bed"></i>
-                    <p>2</p>
-
-                    <i class="fa-solid fa-bath"></i>
-                    <p>2</p>
-
-                    <i class="fa-solid fa-car"></i>
-                    <p>3</p>
-
-                    <i class="fa-brands fa-whatsapp"></i>
-                    <p>Contato</p>
-                </div>
-
-            </div>
-
+            
+            
+            
+            
+            
         </section>
-
-        <section class="section-pg2">
-            <div class="div-pai">
-
-                <div>
-                    <img src="imagem/b.webp" alt="" class="img-caixa">
-                    <p class="paragarafo-div">Imóvel localizado em São Paulo-SP</p>
-                    <p class="paragarafo-div">$580.000,00</p>
-
-
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                </div>
-
-                <div>
-                    <img src="imagem/b.webp" alt="" class="img-caixa">
-                    <p class="paragarafo-div">Imóvel localizado em São Paulo-SP</p>
-                    <p class="paragarafo-div">$580.000,00</p>
-
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                </div>
-
-                <div>
-                    <img src="imagem/b.webp" alt="" class="img-caixa">
-                    <p class="paragarafo-div">Imóvel localizado em São Paulo-SP</p>
-                    <p class="paragarafo-div">$580.000,00</p>
-
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                </div>
-
-
-            </div>
-        </section>
-
+        
         <section class="ap" id="ap">
-
+            
             <h2>Nossos Apartamentos</h2>
+            <div class="cima" >
+                <div class="ap1">
+                    
+                    <h2> Apartamento Para Aluguel <br> Avenida Brigadeiro Faria Lima, 2.232, Jardim Paulistano, São Paulo
+                    </h2>
+                    <p>R$ 1200,00</p>
+                    <div class="div-icon">
+                        <i class="fa-solid fa-ruler-horizontal"></i>
+                        <p>150m²</p>
+                        
+                        <i class="fa-solid fa-bed"></i>
+                        <p>2</p>
+                        
+                        <i class="fa-solid fa-bath"></i>
+                        <p>1</p>
+                        
+                        <i class="fa-solid fa-car"></i>
+                        <p>1</p>
+                        
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <p>Contato</p>
+                    </div>
+                </div>
+                
+                <div class="ap3">
+                    
+                    <img src="imagem/ap3.webp" alt="">
 
-            <div class="ap1">
-                <img src="" alt="">
-                <h2> Apartamento Para Aluguel <br> Avenida Brigadeiro Faria Lima, 2.232, Jardim Paulistano, São Paulo
-                </h2>
-                <p>R$ 1200,00</p>
-                <div class="div-icon">
-                    <i class="fa-solid fa-ruler-horizontal"></i>
-                    <p>150m²</p>
-
-                    <i class="fa-solid fa-bed"></i>
-                    <p>2</p>
-
-                    <i class="fa-solid fa-bath"></i>
-                    <p>1</p>
-
+                    <h2> Apartamento Para Aluguel <br> Avenida Beira-Mar, 1.000 - Centro, Fortaleza </h2>
+                    <p>R$ 2500,00</p>
+                    
+                    <div class="div-icon">
+                        <i class="fa-solid fa-ruler-horizontal"></i>
+                        <p>250m²</p>
+                        
+                        <i class="fa-solid fa-bed"></i>
+                        <p>3</p>
+                        
+                        <i class="fa-solid fa-bath"></i>
+                        <p>2</p>
+                        
                     <i class="fa-solid fa-car"></i>
                     <p>1</p>
-
+                    
                     <i class="fa-brands fa-whatsapp"></i>
                     <p>Contato</p>
                 </div>
             </div>
-
+        </div>
+        
+        <div class="baixo" >
             <div class="ap2">
-                <img src="" alt="">
                 <h2> Apartamento Para Compra <br> Rua Professor Eurico Rabelo, 500 - Maracanã, Rio de Janeiro </h2>
                 <p>R$ 300.000,00</p>
-
+                
                 <div class="div-icon">
                     <i class="fa-solid fa-ruler-horizontal"></i>
                     <p>120m²</p>
-
+                    
                     <i class="fa-solid fa-bed"></i>
                     <p>3</p>
-
+                    
                     <i class="fa-solid fa-bath"></i>
                     <p>1</p>
-
+                    
                     <i class="fa-solid fa-car"></i>
                     <p>1</p>
-
-                    <i class="fa-brands fa-whatsapp"></i>
-                    <p>Contato</p>
-                </div>
-            </div>
-
-            <div class="ap3">
-                <img src="" alt="">
-
-                <h2> Apartamento Para Aluguel <br> Avenida Beira-Mar, 1.000 - Centro, Fortaleza </h2>
-                <p>R$ 2500,00</p>
-
-                <div class="div-icon">
-                    <i class="fa-solid fa-ruler-horizontal"></i>
-                    <p>250m²</p>
-
-                    <i class="fa-solid fa-bed"></i>
-                    <p>3</p>
-
-                    <i class="fa-solid fa-bath"></i>
-                    <p>2</p>
-
-                    <i class="fa-solid fa-car"></i>
-                    <p>1</p>
-
+                    
                     <i class="fa-brands fa-whatsapp"></i>
                     <p>Contato</p>
                 </div>
             </div>
 
             <div class="ap4">
-                <img src="" alt="">
+                    
+                <img src="imagem/ap4.webp" alt="">
                 <h2> Apartamento Para Compra <br>Rua das Figueiras, 72 - Jardim Paulistano, São Paulo </h2>
                 <p>R$ 250.000,00</p>
-
                 <div class="div-icon">
                     <i class="fa-solid fa-ruler-horizontal"></i>
                     <p>240m²</p>
-
+                    
                     <i class="fa-solid fa-bed"></i>
                     <p>2</p>
-
+                    
                     <i class="fa-solid fa-bath"></i>
                     <p>2</p>
-
+                    
                     <i class="fa-solid fa-car"></i>
                     <p>1</p>
-
+                    
                     <i class="fa-brands fa-whatsapp"></i>
                     <p>Contato</p>
                 </div>
             </div>
-
+            
+            </div>
+            
         </section>
     </main>
-
+    
     <!-- Rodape -->
     <footer>
         <div>
